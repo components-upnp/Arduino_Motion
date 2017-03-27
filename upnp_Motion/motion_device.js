@@ -15,14 +15,14 @@ function createServerPlusDevice(upnp, server, device) {
 var device = peer.createDevice({
 	    autoAdvertise: false,
 	    uuid: "6bd5eabd-b7c8-4f7b-ae6c-a30ccdeb5988",
-	    productName: "arduino_luminosity",
+	    productName: "arduino_motion_detector",
 	    productVersion: "0.0.1",
 	    domain: "schemas-upnp-org",  	//Error when domain changed
-	    type: "upnp_luminosity",
+	    type: "upnp_motion_detector",
 	    version: "1",
-	    friendlyName: "LUMI",
+	    friendlyName: "Motion Detector",
 	    manufacturer: "CreaTech",
-	    modelName: "lumi",
+	    modelName: "motion detector",
 	    modelDescription: "un capteur de luminosité sur Arduino",
 	    modelNumber: "0.0.1",
 	    modelURL: "http://www.famium.org",
